@@ -1,2 +1,3 @@
 # Stats_learning
 In simple words statistics is the study and manipulation of given data. It deals with the analysis and computation of given numerical data.
+Statistics is a branch of mathematics that deals with collecting, analyzing, interpreting, and visualizing empirical data. Descriptive statistics and inferential statistics are the two major areas of statistics. Descriptive statistics are for describing the properties of sample and population data (what has happened). Inferential statistics use those properties to test hypotheses, reach conclusions, and make predictions (what can you expect).
