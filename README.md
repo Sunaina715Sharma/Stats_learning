@@ -9,3 +9,5 @@ MEAN :: The arithmetic mean is the average of all the data points.If there are n
 Mean = sum of all the observations/ total numbers of observations
 MEDIAN :: Median is the middle value that divides the data into two equal parts once it sorts the data in ascending order.
 If the total number of data points (n) is odd, the median is the value at position (n+1)/2
+When the total number of observations (n) is even, the median is the average value of observations at n/2 and (n+2)/2 positions.
+
