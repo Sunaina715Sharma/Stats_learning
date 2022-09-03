@@ -46,3 +46,9 @@ assert median([1, 9, 2, 10]) == (2 + 9) / 2
 assert median(num_friends) == 6
 
 mode:: Mode represents the most frequent observation in a numeric variable. To find mode we do not have a function in Numpy, but we have a function in scipy.
+
+#find mode of petal length of each class
+from scipy import stats
+print(stats.mode(iris_setosa['PL']))
+print(stats.mode(iris_versicolor['PL']))
+print(stats.mode(iris_virginica['PL']))
