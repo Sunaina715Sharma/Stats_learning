@@ -52,3 +52,26 @@ from scipy import stats
 print(stats.mode(iris_setosa['PL']))
 print(stats.mode(iris_versicolor['PL']))
 print(stats.mode(iris_virginica['PL']))
+
+
+def mode(x: List[float]) -> List[float]:
+    """Returns a list, since there might be more than one mode"""
+    counts = Counter(x)
+    max_count = max(counts.values())
+    return [x_i for x_i, count in counts.items()
+            if count == max_count]
+
+assert set(mode(num_friends)) == {1, 6}
+
+# "range" already means something in Python, so we'll use a different name
+def data_range(xs: List[float]) -> float:
+    return max(xs) - min(xs)
+
+assert data_range(num_friends) == 99
+
+from scratch.linear_algebra import sum_of_squares
+
+def de_mean(xs: List[float]) -> List[float]:
+    """Translate xs by subtracting its mean (so the result has mean 0)"""
+    x_bar = mean(xs)
+    return [x - x_bar for x in xs]
