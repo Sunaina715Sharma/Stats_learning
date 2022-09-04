@@ -75,3 +75,14 @@ def de_mean(xs: List[float]) -> List[float]:
     """Translate xs by subtracting its mean (so the result has mean 0)"""
     x_bar = mean(xs)
     return [x - x_bar for x in xs]
+
+
+ef variance(xs: List[float]) -> float:
+    """Almost the average squared deviation from the mean"""
+    assert len(xs) >= 2, "variance requires at least two elements"
+
+    n = len(xs)
+    deviations = de_mean(xs)
+    return sum_of_squares(deviations) / (n - 1)
+
+assert 81.54 < variance(num_friends) < 81.55
