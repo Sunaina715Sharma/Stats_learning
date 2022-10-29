@@ -81,4 +81,5 @@ ef variance(xs: List[float]) -> float:
     deviations = de_mean(xs)
     return sum_of_squares(deviations) / (n - 1)
 
+
 assert 81.54 < variance(num_friends) < 81.55
