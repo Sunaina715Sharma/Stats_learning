@@ -85,3 +85,6 @@ ef variance(xs: List[float]) -> float:
 assert 81.54 < variance(num_friends) < 81.55
 
 sxd
+
+hmnsh mnr
+lth
