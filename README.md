@@ -1,6 +1,8 @@
 # Stats_learning
 
 MEASURES OF CENTRAL TENDENCIES-
+
+
 MEAN :: The arithmetic mean is the average of all the data points.If there are n number of observations and xi is the ith observation, then mean is:
 Mean = sum of all the observations/ total numbers of observations
 
